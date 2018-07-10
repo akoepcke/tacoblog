@@ -1,5 +1,18 @@
 @extends('_layouts.master')
 
 @section('content')
-<h1>Hello world!</h1>
+    <div>
+        <a href="/blog">Blog</a>
+        <div>
+            @foreach ($projects as $project)
+                <div>
+                    <a href="{{ $project->getPath() }}">{{ $project->title }}</a>
+                </div>
+            @endforeach
+        </div>
+        <div>
+            <a href="https://github.com/akoepcke">Github</a>
+            <a href="https://bitbucket.org/akoepcke/">Bitbucket</a>
+        </div>
+    </div>
 @endsection
