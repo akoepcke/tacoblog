@@ -5,7 +5,7 @@ return [
     'production' => false,
     'collections' => [
         'posts' => [
-            'path' => 'blog/{date|Y-m-d}/{filename}',
+            'path' => 'blog/{date|Y-m-d}/{-title}',
             'author' => 'Taco',
         ]
     ],
