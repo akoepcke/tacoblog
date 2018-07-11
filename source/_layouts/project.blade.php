@@ -9,6 +9,10 @@
     </div>
 
     <div>
+        Source at <a href="{{ $page->repository }}">{{ $page->repositoryType }}</a>
+    </div>
+
+    <div>
         @yield('projectContent')
     </div>
 @endsection
