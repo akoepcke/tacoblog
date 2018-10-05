@@ -9,7 +9,7 @@ return [
             'author' => 'Taco',
         ],
         'projects' => [
-            'path'  => '{collection}/{-title}'
-        ]
+            'path'  => '{collection}/{-title}',
+        ],
     ],
 ];
