@@ -7,8 +7,11 @@
     <link rel="stylesheet" href="{{ mix('/css/main.css') }}">
 </head>
 <body>
-    <div class="container mx-auto">
+    <header class="bg-blue">
+        A. Koepcke
+    </header>
+    <main class="container mx-auto">
         @yield('content')
-    </div>
+    </main>
 </body>
 </html>
