@@ -13,5 +13,8 @@
     <main class="container mx-auto">
         @yield('content')
     </main>
+    <footer class="text-center">
+        &copy;A. Koepcke 2018
+    </footer>
 </body>
 </html>
