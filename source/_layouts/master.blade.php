@@ -4,10 +4,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <link rel="stylesheet" href="{{ mix('/css/main.css', 'assets/build') }}">
+    <link rel="stylesheet" href="{{ mix('/css/main.css') }}">
 </head>
 <body class="bg-indigo-lightest">
-    <header class="bg-indigo-darker">
+    <header class="bg-indigo-darker" style="background-image: url('https://www.pexels.com/photo/blue-and-silver-stetoscope-40568/')">
         A. Koepcke
     </header>
     <main>
