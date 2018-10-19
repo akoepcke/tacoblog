@@ -10,7 +10,7 @@
     <header class="bg-indigo-darker">
         A. Koepcke
     </header>
-    <main class="container mx-auto p-4 bg-white shadow-lg">
+    <main>
         @yield('content')
     </main>
     <footer class="p-2 text-center text-xs">
