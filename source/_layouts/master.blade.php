@@ -6,14 +6,14 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <link rel="stylesheet" href="{{ mix('/css/main.css') }}">
 </head>
-<body>
+<body class="bg-blue-lightest">
     <header class="bg-blue">
         A. Koepcke
     </header>
-    <main class="container mx-auto">
+    <main class="container mx-auto p-2 bg-white">
         @yield('content')
     </main>
-    <footer class="text-center">
+    <footer class="p-2 text-center text-xs">
         &copy;A. Koepcke 2018
     </footer>
 </body>
