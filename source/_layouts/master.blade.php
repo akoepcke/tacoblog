@@ -6,11 +6,11 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <link rel="stylesheet" href="{{ mix('/css/main.css') }}">
 </head>
-<body class="bg-blue-lightest">
-    <header class="bg-blue">
+<body class="bg-indigo-lightest">
+    <header class="bg-indigo-darker">
         A. Koepcke
     </header>
-    <main class="container mx-auto p-2 bg-white">
+    <main class="container mx-auto p-4 bg-white shadow-lg">
         @yield('content')
     </main>
     <footer class="p-2 text-center text-xs">
