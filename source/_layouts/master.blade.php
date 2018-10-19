@@ -6,14 +6,14 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <link rel="stylesheet" href="{{ mix('/css/main.css') }}">
 </head>
-<body class="bg-indigo-lightest">
-    <header class="h-48 lg:h-auto lg:w-48 flex-none bg-cover" style="background-image: url('images/stethoscope.jpg')">
-        A. Koepcke
+<body class="bg-blue-lightest">
+    <header class="h-48 flex-none bg-cover" style="background-image: url('images/bg-blue.jpg')">
+
     </header>
-    <main>
+    <main class="-mt-6">
         @yield('content')
     </main>
-    <footer class="p-2 text-center text-xs">
+    <footer class="p-2 text-center text-xs text-grey-darkest">
         &copy;A. Koepcke 2018
     </footer>
 </body>
