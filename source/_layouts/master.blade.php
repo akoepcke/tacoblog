@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="{{ mix('/css/main.css') }}">
 </head>
 <body class="bg-indigo-lightest">
-    <header class="bg-indigo-darker" style="background-image: url('https://www.pexels.com/photo/blue-and-silver-stetoscope-40568/')">
+    <header class="bg-indigo-darker" style="background-image: url('images/stethoscope.jpg')">
         A. Koepcke
     </header>
     <main>
