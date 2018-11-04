@@ -1,11 +1,16 @@
 @extends('_layouts.master')
 
 @section('content')
-    <div class="container mx-auto p-4 bg-white shadow-lg flex flex-col">
+    <div class="p-4 bg-white flex flex-col rounded-lg">
         <a href="/blog">Blog</a>
         <a href="/projects">Projects</a>
-        <div>
+    </div>
+
+    <div class="flex my-2 justify-center">
+        <div class="bg-white rounded-lg p-4 mx-2">
             <a href="https://github.com/akoepcke">Github</a>
+        </div>
+        <div class="bg-white rounded-lg p-4 mx-2">
             <a href="https://bitbucket.org/akoepcke/">Bitbucket</a>
         </div>
     </div>
