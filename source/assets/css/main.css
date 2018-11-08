@@ -614,12 +614,6 @@ textarea::-webkit-input-placeholder {
   opacity: .5;
 }
 
-input:-ms-input-placeholder,
-textarea:-ms-input-placeholder {
-  color: inherit;
-  opacity: .5;
-}
-
 input::-ms-input-placeholder,
 textarea::-ms-input-placeholder {
   color: inherit;
@@ -5066,6 +5060,14 @@ table {
 
 .stroke-current {
   stroke: currentColor;
+}
+
+.table-auto {
+  table-layout: auto;
+}
+
+.table-fixed {
+  table-layout: fixed;
 }
 
 .text-left {
@@ -11076,6 +11078,14 @@ table {
             box-shadow: none;
   }
 
+  .sm\:table-auto {
+    table-layout: auto;
+  }
+
+  .sm\:table-fixed {
+    table-layout: fixed;
+  }
+
   .sm\:text-left {
     text-align: left;
   }
@@ -16720,6 +16730,14 @@ table {
   .md\:focus\:shadow-none:focus {
     -webkit-box-shadow: none;
             box-shadow: none;
+  }
+
+  .md\:table-auto {
+    table-layout: auto;
+  }
+
+  .md\:table-fixed {
+    table-layout: fixed;
   }
 
   .md\:text-left {
@@ -22368,6 +22386,14 @@ table {
             box-shadow: none;
   }
 
+  .lg\:table-auto {
+    table-layout: auto;
+  }
+
+  .lg\:table-fixed {
+    table-layout: fixed;
+  }
+
   .lg\:text-left {
     text-align: left;
   }
@@ -28012,6 +28038,14 @@ table {
   .xl\:focus\:shadow-none:focus {
     -webkit-box-shadow: none;
             box-shadow: none;
+  }
+
+  .xl\:table-auto {
+    table-layout: auto;
+  }
+
+  .xl\:table-fixed {
+    table-layout: fixed;
   }
 
   .xl\:text-left {
