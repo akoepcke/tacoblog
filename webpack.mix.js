@@ -16,7 +16,6 @@ mix.webpackConfig({
 
 mix.js('source/_assets/js/main.js', 'js')
     .sass('source/_assets/sass/main.scss', 'css/main.css')
-    .sass('node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss', 'css/fa.css')
     .copy('node_modules/@fortawesome/fontawesome-free/webfonts/', 'source/assets/webfonts')
     .options({
         processCssUrls: false,

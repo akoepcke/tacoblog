@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <link rel="stylesheet" href="{{ mix('/css/main.css') }}">
-    <link rel="stylesheet" href="{{ mix('/css/fa.css') }}">
 </head>
 <body class="bg-blue-darkest bg-hero-circuit-board">
         <div class="container md:max-w-md mx-auto">
