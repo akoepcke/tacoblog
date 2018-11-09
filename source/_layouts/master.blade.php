@@ -8,16 +8,16 @@
 </head>
 <body class="bg-blue-darkest bg-hero-circuit-board">
         <div class="container md:max-w-md mx-auto">
-            <header class="flex justify-between">
-                <div class="text-blue-lightest text-xl mt-10 mb-2">
+            <header class="flex items-baseline justify-between p-2 md:mt-10">
+                <div class="text-blue-lightest text-xl">
                     Anne Köpcke
                 </div>
-                <div class="flex my-2 justify-center">
-                    <div class="bg-white rounded-lg p-4 mx-2">
-                        <a href="https://github.com/akoepcke"><i class="fab fa-3x fa-github"></i></a>
+                <div class="bg-blue-darkest rounded-full inline-flex p-2 justify-center">
+                    <div class="p-2">
+                        <a href="https://github.com/akoepcke"><i class="fab fa-2x fa-github text-white"></i></a>
                     </div>
-                    <div class="bg-white rounded-lg p-4 mx-2">
-                        <a href="https://bitbucket.org/akoepcke/"><i class="fab fa-3x fa-bitbucket"></i></a>
+                    <div class="p-2">
+                        <a href="https://bitbucket.org/akoepcke/"><i class="fab fa-2x fa-bitbucket text-white"></i></a>
                     </div>
                 </div>
             </header>
@@ -25,7 +25,7 @@
             <main class="">
                 @yield('content')
             </main>
-            <footer class="p-2 text-center text-xs text-grey-darker">
+            <footer class="p-2 text-center text-xs text-grey">
                 &copy;A. Koepcke 2018
             </footer>
         </div>
