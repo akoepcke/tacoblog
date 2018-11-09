@@ -8,7 +8,7 @@
 </head>
 <body class="bg-blue-darkest bg-hero-circuit-board text-blue-darkest">
         <div class="container md:max-w-md mx-auto">
-            <header class="flex items-baseline justify-between sm:mt-10">
+            <header class="flex items-baseline justify-between mb-2 sm:mt-10">
                 <div class="text-blue-lightest text-xl antialiased">
                     Anne Köpcke
                 </div>
