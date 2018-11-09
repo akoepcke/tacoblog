@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="">
-        <ul class="list-reset">
+        <ul class="list-reset -mb-6">
             @foreach ($posts as $post)
                 <li class="group bg-white rounded-lg mb-6 hover:bg-blue">
                     <a href="{{ $post->getPath() }}" class="flex flex-col no-underline p-4 text-blue-darkest group-hover:text-white">
