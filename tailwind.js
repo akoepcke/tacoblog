@@ -897,7 +897,7 @@ module.exports = {
     svgFill: [],
     svgStroke: [],
     textAlign: ['responsive'],
-    textColors: ['responsive', 'hover', 'focus'],
+    textColors: ['responsive', 'hover', 'group-hover', 'focus'],
     textSizes: ['responsive'],
     textStyle: ['responsive', 'hover', 'focus'],
     tracking: ['responsive'],
