@@ -8,7 +8,7 @@ module.exports = {
         variants: [],
         patterns: [],
         colors: {
-          default: "blue-darkest"
+          default: "blue-900"
         },
         opacities: {
           default: "0.4"
