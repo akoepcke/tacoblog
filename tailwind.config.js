@@ -1,8 +1,10 @@
 module.exports = {
-  theme: {
-    extend: {}
+    theme: {
+        extend: {}
+    },
+    variants: {
+        textColor: ['responsive', 'hover', 'focus', 'group-hover'],
   },
-  variants: {},
   plugins: [
     require("tailwind-heropatterns")({
         variants: [],
