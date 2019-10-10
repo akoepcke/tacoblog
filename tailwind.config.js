@@ -3,5 +3,16 @@ module.exports = {
     extend: {}
   },
   variants: {},
-  plugins: []
+  plugins: [
+    require("tailwind-heropatterns")({
+        variants: [],
+        patterns: [],
+        colors: {
+          default: "blue-darkest"
+        },
+        opacities: {
+          default: "0.4"
+        }
+      })
+  ]
 }
