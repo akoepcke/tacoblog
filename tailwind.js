@@ -897,7 +897,7 @@ module.exports = {
     svgFill: [],
     svgStroke: [],
     textAlign: ['responsive'],
-    textColors: ['responsive', 'hover', 'focus'],
+    textColors: ['responsive', 'hover', 'group-hover', 'focus'],
     textSizes: ['responsive'],
     textStyle: ['responsive', 'hover', 'focus'],
     tracking: ['responsive'],
@@ -929,6 +929,16 @@ module.exports = {
       // center: true,
       // padding: '1rem',
     }),
+    require("tailwind-heropatterns")({
+      variants: [],
+      patterns: [],
+      colors: {
+        default: "blue-darkest"
+      },
+      opacities: {
+        default: "0.4"
+      }
+    })
   ],
 
 

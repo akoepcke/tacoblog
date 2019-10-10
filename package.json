@@ -8,6 +8,7 @@
         "watch": "npm run local -- --watch"
     },
     "devDependencies": {
+        "@fortawesome/fontawesome-free": "^5.5.0",
         "browser-sync": "^2.23.6",
         "browser-sync-webpack-plugin": "^2.0.1",
         "cross-env": "^3.2.3",
@@ -16,6 +17,7 @@
         "laravel-mix-purgecss": "^2.2.0",
         "node-cmd": "^3.0.0",
         "on-build-webpack": "^0.1.0",
+        "tailwind-heropatterns": "0.0.7",
         "tailwindcss": "^0.6.1",
         "webpack-watch": "^0.2.0",
         "yargs": "^4.6.0"

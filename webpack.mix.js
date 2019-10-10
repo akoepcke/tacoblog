@@ -1,5 +1,6 @@
 let mix = require('laravel-mix');
 var tailwindcss = require('tailwindcss');
+var fontawesome = require('@fortawesome/fontawesome-free');
 let build = require('./tasks/build.js');
 require('laravel-mix-purgecss');
 
@@ -15,6 +16,7 @@ mix.webpackConfig({
 
 mix.js('source/_assets/js/main.js', 'js')
     .sass('source/_assets/sass/main.scss', 'css/main.css')
+    .copy('node_modules/@fortawesome/fontawesome-free/webfonts/', 'source/assets/webfonts')
     .options({
         processCssUrls: false,
         postCss: [tailwindcss('./tailwind.js')],
