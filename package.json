@@ -17,8 +17,11 @@
         "laravel-mix-purgecss": "^4.2.0",
         "node-cmd": "^3.0.0",
         "on-build-webpack": "^0.1.0",
+        "sass": "^1.23.0",
+        "sass-loader": "^8.0.0",
         "tailwind-heropatterns": "0.0.7",
         "tailwindcss": "^1.1.2",
+        "vue-template-compiler": "^2.6.10",
         "webpack-watch": "^0.2.0"
     },
     "dependencies": {

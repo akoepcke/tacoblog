@@ -19,7 +19,7 @@ mix.js('source/_assets/js/main.js', 'js')
     .copy('node_modules/@fortawesome/fontawesome-free/webfonts/', 'source/assets/webfonts')
     .options({
         processCssUrls: false,
-        postCss: [tailwindcss('./tailwind.js')],
+        postCss: [tailwindcss('./tailwind.config.js')],
     })
     .purgeCss({
         folders: ['source'],
